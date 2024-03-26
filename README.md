@@ -8,25 +8,26 @@ The Fleet Management System is a web application designed to manage vehicles, dr
 ## How to Run
 1. Clone the repository:
 
-    git clone https://github.com/your-repo-url.git
+    git clone https://github.com/collinsemmanuel/DJANGO_FLEET_MANAGEMENT.git
    
+    cd fleet_management
     cd fleet_management_system
 
 
-2. Install dependencies:
+3. Install dependencies:
 
     pip install -r requirements.txt
 
 
-3. Apply migrations:   
+4. Apply migrations:   
     python manage.py migrate
 
 
-4. Run the server:
+5. Run the server:
     python manage.py runserver
 
 
-5. Access the application at `http://localhost:8000`
+6. Access the application at `http://localhost:8000`
 
 ## New Tables and Models
 - Registered new models in `admin.py`
